@@ -1,0 +1,35 @@
+//Bootstrap
+@import "./vendor/bootstrap/functions";
+@import "./vendor/bootstrap/variables";
+@import "./vendor/bootstrap/utilities";
+@import "./vendor/bootstrap/mixins";
+@import "./vendor/bootstrap/tooltip";
+
+@import "./vendor/bootstrap/containers";
+@import "./vendor/bootstrap/grid";
+
+@import "./vendor/bootstrap/utilities/api";
+
+// customized
+@import "./scss/mixin";
+@import "./scss/variables";
+@import "./scss/button";
+@import "./scss/cards";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $font-family;
+  font-size: 0.9rem;
+  color: $text-color;
+  background: #f2f2f2;
+  height: 100%;
+}
+
+.main-container {
+  padding: 15px 22px 50px 22px;
+}

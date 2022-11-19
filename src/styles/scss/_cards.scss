@@ -1,0 +1,47 @@
+@import "./variables";
+.card-container {
+  border-radius: $border-radius;
+  background: #fff;
+}
+
+.card {
+  border-radius: $border-radius;
+  padding: 20px;
+  transition: 0.3s;
+}
+
+.card-text {
+  line-height: 1.5rem;
+}
+
+.img-card-profile {
+  max-width: 100px;
+  display: block;
+  margin: auto;
+}
+
+.container-card-statistics {
+  margin: 1.5rem 0;
+  padding: 0 1rem;
+  .row {
+    margin-bottom: 1rem;
+  }
+}
+.card-statistics {
+  border-radius: $border-radius;
+  padding: 20px;
+  transition: 0.3s;
+  background: $main-card;
+}
+
+@media screen and (max-width: 576px) {
+  .container-card-statistics {
+    padding: 0;
+    .row {
+      margin-bottom: 0;
+    }
+  }
+  .card-statistics {
+    margin-bottom: 1rem;
+  }
+}

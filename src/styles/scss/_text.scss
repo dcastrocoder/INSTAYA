@@ -1,0 +1,64 @@
+@import "./variables";
+
+.main-color {
+  color: $main-color;
+}
+a,
+p,
+button {
+  font-size: 0.8rem;
+}
+*::selection {
+  background: $text-color;
+  color: #fff;
+}
+
+a,
+h3,
+button,
+h2,
+p,
+label {
+  color: $text-color;
+  font-family: $font-family;
+}
+h1 {
+  font-size: 5rem;
+  font-weight: 800;
+}
+h2 {
+  font-size: 1.3rem;
+  font-weight: 800;
+}
+h3 {
+  font-size: 1rem;
+}
+
+h1 {
+  color: $main-color;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  color: $text-color;
+  &:hover {
+    color: $main-color;
+  }
+}
+
+.text-main-color {
+  color: $main-color;
+}
+.text-blue-color {
+  color: $blue-color;
+}
+.text-green-color {
+  color: $green-color;
+}
+.text-red-color {
+  color: $red-color;
+}
+.text-orange-color {
+  color: $orange-color;
+}

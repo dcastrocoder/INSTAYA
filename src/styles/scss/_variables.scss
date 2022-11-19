@@ -1,0 +1,142 @@
+//-------------------COLORS -----------------//
+
+$main-color: #445af7;
+$main-color-70: #5c6fff;
+$main-color-50: #8e9eef;
+$main-color-25: #c5ceef;
+$main-color-10: #d5dbf1;
+$main-color-5: #eaefff;
+
+$blue-color: #2e6fff;
+$blue-color-50: #b6e7ff;
+$blue-color-25: #e5f6ff;
+
+$green-color: #358c4f;
+$green-color-75: #4cbb6d;
+$green-color-50: #c3e9d1;
+$green-color-25: #e2f6e9;
+$green-color-10: #f1fdf5;
+
+$red-color: #ff3636;
+$red-color-70: #fc6060;
+$red-color-50: #f88a8a;
+$red-color-25: #ffafaf;
+$red-color-10: #ffe8e8;
+
+$orange-color: #fd782b;
+$orange-color-75: #fd8946;
+$orange-color-50: #ffa068;
+$orange-color-25: #fddcc8;
+
+$body-color: #eef4f9;
+
+//-----------------------------
+
+// CARD BACKGROUND COLORS
+$main-card: #fff;
+$secondary-card: #f2f8f9c9;
+//f2f8f9c9
+// TOPBAR COLOR
+$top-bar-color: #fff;
+
+//BORDERS
+$border: 1px solid rgb(228, 228, 228);
+$border-radius: 20px;
+// los colores primarios, secundarios, de backgrounds, de textos,
+//sombras, border radius, un padding y el tamaño de las fuentes (headings)
+
+// Y si estás usando sass pues un mixin para los tamaños del responsive
+
+// SHADOW
+$shadow: 3px 6px 6px -8px rgb(0 0 0 / 12%), 3px 6px 8px 0 rgb(0 0 0 / 8%),
+  3px 8px 12px 8px rgb(0 0 0 / 5%);
+
+// TEXT
+
+$font-family: "Lato", sans-serif;
+$text-color: #363947;
+$text-color-light: #a7afca;
+
+//---------------------------------
+//BACKGROUND COLORS
+.bg-secondary-card {
+  background: $secondary-card;
+}
+
+.bg-main- {
+  background: $main-color;
+}
+.bg-main-70 {
+  background: $main-color-70;
+}
+.bg-main-50 {
+  background: $main-color-50;
+}
+.bg-main-25 {
+  background: $main-color-25;
+}
+.bg-main-10 {
+  background: $main-color-10;
+}
+
+.bg-blue {
+  background: $blue-color;
+}
+.bg-blue-50 {
+  background: $blue-color-50;
+}
+.bg-blue-25 {
+  background: $blue-color-25;
+}
+
+.bg-green {
+  background: $green-color;
+}
+.bg-green-50 {
+  background: $green-color-50;
+}
+.bg-green-25 {
+  background: $green-color-25;
+}
+
+.bg-green {
+  background: $green-color;
+}
+.bg-green-50 {
+  background: $green-color-50;
+}
+.bg-green-25 {
+  background: $green-color-25;
+}
+
+.bg-red {
+  background: $red-color;
+}
+.bg-red-50 {
+  background: $red-color-50;
+}
+.bg-red-25 {
+  background: $red-color-25;
+  padding: 6px;
+}
+.bg-red-10 {
+  background: $red-color-10;
+  border-radius: 5px;
+  padding: 6px;
+}
+
+.bg-orange {
+  background: $orange-color;
+}
+.bg-orange-50 {
+  background: $orange-color-50;
+}
+.bg-orange-25 {
+  background: $orange-color-25;
+}
+.bg-main-card {
+  background: $main-card;
+}
+.bg-white {
+  background: #fff;
+}
